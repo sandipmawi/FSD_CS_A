@@ -11,7 +11,7 @@ const RefCount = () => {
         Refcount.current++;
         console.log('refcount=',Refcount.current);
         if(Refcount.current == a){
-            alert("counter=",+Refcount.current);
+            alert("counter=",Refcount.current);
         }
     }
 
