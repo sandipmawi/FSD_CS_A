@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
-
+import RefCount from './RefCount';
 
 
 
@@ -9,6 +9,7 @@ function App() {
 
   return (
    <div>
+   <RefCount />
     <Routes>
       <Route path='/' element={<h1>Home Page</h1>} />
       <Route path='/about' element={<h1>About Page</h1>} />
