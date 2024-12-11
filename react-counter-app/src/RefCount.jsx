@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import { useRef } from 'react'
 
 
@@ -11,11 +11,11 @@ const RefCount = () => {
         Refcount.current++;
         console.log('refcount=',Refcount.current);
         if(Refcount.current == a){
-            alert("counter=",Refcount.current);
+            alert("counter="+Refcount.current);
         }
     }
 
-
+  
   return (
     <div>
         <h1>Refcount={Refcount.current}</h1>
